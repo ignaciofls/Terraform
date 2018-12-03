@@ -11,6 +11,6 @@ To create a cluster in ADB in an automated fashion you need Azure Active Directo
     install databricks cli locally and use token to authenticate: https://docs.azuredatabricks.net/user-guide/dev-tools/databricks-cli.html#install-the-cli
     run terraform internally invoking cli: https://docs.azuredatabricks.net/user-guide/dev-tools/databricks-cli.html#clusters-cli :
 
-resource "null_resource" "cloudability-setup" { provisioner "local-exec" { command = <<EOT databricks clusters --json-file PATH EOT } }
+    resource "null_resource" "cloudability-setup" { provisioner "local-exec" { command = <<EOT databricks clusters --json-file PATH EOT } }
 
     enjoy :)
