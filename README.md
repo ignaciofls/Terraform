@@ -1,5 +1,5 @@
 # Terraform
-Terraform templates for Azure Databricks and Azure Data Factory
+Terraform templates for Azure Databricks (ADB) and Azure Data Factory (ADF). Here you can find examples on how to create a ADB workspace, ADB cluster, ADF instance and ADF pipeline.
 
 Reminder of the steps:
 
