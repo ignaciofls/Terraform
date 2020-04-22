@@ -1,3 +1,6 @@
+provider "azurerm" {
+  features {}
+  }
 resource "azurerm_resource_group" "testRG" {
   name     = "myRG"
   location = "West Europe"
